@@ -1,0 +1,147 @@
+/** wadah dari main content **/
+
+.wrapper {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    /* padding : 100px; */
+}
+
+.flex-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    z-index: 100;
+    position: relative;
+    /** penting untuk memulai flex**/
+    display: flex;
+}
+
+/** membuat  cover bacground image  **/
+
+.with-image {
+    background-image: url("../storage/bggrey 1.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/** membuat nama atas **/
+
+.flex-top-name {
+    flex: 3;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.top-name {
+    padding: 5px;
+}
+
+.top-name a {
+    color: white;
+    text-decoration: none;
+}
+
+/** membuat content deskripsi **/
+
+.content {
+    font-weight: normal;
+}
+
+.content p {
+    font-size: 2rem;
+    color: black;
+}
+
+.flex-content {
+    display: flex;
+    margin: 200px;
+    flex: 3;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+/** membuat form **/
+
+.flex-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 50%;
+    flex: 3;
+}
+
+.flex-form .flex-parent-inflex-wrapperput-form {
+    flex: 0.6
+}
+ .flex-input-form .input-form {
+    margin-right: 10px;
+    border-radius: 6px;
+    border: 2px solid #00B894;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    margin-top: -150px;
+    color: #00B894;
+    background: rgba(0, 184, 148, 0.1)
+    
+}
+.flex-form .flex-button-form {
+    flex: 0.4;
+}
+
+.flex-form .flex-button-form .button-form {
+    display: block;
+    border-radius: 6px;
+    background: #00B894;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    margin: 10px;
+    margin-top: -150px;
+    margin-left: 50px;
+    
+}
+.bebas{
+    margin-top: -35px;
+}
+/**
+    membuat text menggulir kebawah 
+**/
+
+.flex-scroll {
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    flex: 1;
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: flex-end;
+}
+
+.flex-scroll small {
+    font-size: 0.8rem;
+}
+
+.flex-scroll .flex-arrow-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.opacity {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0.3;
+}
